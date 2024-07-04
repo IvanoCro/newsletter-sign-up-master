@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <script defer src="main.js"></script> 
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<main id="main-content">
+  <section class="sign-up-section">
+  <!-- Sign-up form start -->
+  <div class="sign-up-content">
+      <h1>Stay updated!</h1>
+
+      <p class="description">Join 60,000+ product managers receiving monthly <br> updates on:</p>
+
+      <ul class="sign-up--ul-list">
+      
+      <li class="sign-up-list">Product discovery and building what matters</li>
+      <li class="sign-up-list">Measuring to ensure updates are a success</li> 
+      <li class="sign-up-list">And much more!</li> 
+      </ul>
+      <form action="">
+      <label class="email-label" for="enter-email">Email address</label>
+      <input class="email-input" type="email" placeholder="email@company.com" required id="enter-email">
+      </form> 
+    <div class="icons-success">
+      <img class="icon-success" src="assets/images/icon-success.svg" alt="Success icon">
+      <img class="icon-success" src="assets/images/icon-success.svg" alt="Success icon">
+      <img class="icon-success" src="assets/images/icon-success.svg" alt="Success icon">
+    </div>
+      <button class="subscribe-button" id="subscribe-button">Subscribe to monthly newsletter</button>
+  
+    <img class="illustration-sign-up" src="assets/images/illustration-sign-up-desktop.svg" alt="">
+    </section>
+  </div>
+</main>
+
+<div class="success-card" id="success-card">
+  <img class="succsess-icon" src="assets/images/icon-success.svg" alt="succsess-icon">
+  <h2>Thanks for subscribing!</h2>
+  <p class="succsess-message" id="succsess-message"></p>
+  <button class="dissmis-btn" id="dissmis-btn">Dismiss message</button>
+</div>
+ 
+  
+  
+</body>
+</html>

@@ -1,0 +1,203 @@
+:root{
+    font-family: 'Roboto', sans-serif;
+    --primary-color:hsl(4, 100%, 67%);
+    --dark-slate-grey: hsl(234, 29%, 20%);
+    --charcoal-grey: hsl(235, 18%, 26%);
+    --grey: hsl(231, 7%, 60%);
+    --white: hsl(0, 0%, 100%);
+    --c-margin-bottom : 30px;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(assets/fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto-bold;
+    src: url(assets/fonts/Roboto-Bold.ttf);
+}
+
+body{
+    background-color: var(--charcoal-grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    background-color: hsl(0, 0%, 100%);
+    width: 841.797px;
+    height: 593px;
+    padding: 25px 25px 25px 66px;
+    border-radius: 2.5rem;
+    display: flex;
+    
+}
+
+
+.illustration-sign-up{
+    height: 593px;
+    width: 400px;
+    position: relative;
+    left: 435px;
+    top: -510px;
+
+}
+.img-div{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.sign-up-content{
+    flex-direction:column-reverse;
+flex-wrap:wrap-reverse;
+align-content: space-between;
+justify-content: center;
+    
+    
+}
+
+h1{
+    font-size: 3.5rem;
+    color: var(--dark-slate-grey);
+    font-weight: 700;
+    margin-top: 60px;
+    margin-bottom: var(--c-margin-bottom);
+    font-family: Roboto-bold;
+    
+}
+
+.sign-up--ul-list{
+    color: var(--dark-slate-grey);
+    list-style-type: none;
+    margin-left: 30px;
+
+}
+.sign-up-list{
+    margin-bottom: 15px;
+}
+
+
+.enter-email, label{
+    color: var(--charcoal-grey);
+}
+
+.description{
+    color: var(--dark-slate-grey);
+    margin-bottom: var(--c-margin-bottom);
+}
+
+.icons-success{
+    position: relative;
+    top: -213px;
+    right: 10px;
+}
+
+.icon-success{
+    width: 20px;
+    height: 20px;
+    padding: 7px;
+    display: block;
+}
+
+.email-input{
+    width: 330.8px;
+    height: 22.4px;
+    padding: 15px 20px 15px 23px;
+    border-radius: 8px;
+    font-family: Roboto;
+    border: 1px solid var(--grey);
+    font-size: 1rem;
+    display: block;
+    margin-top: 30px;
+}
+.email-label{
+    color: var(--dark-slate-grey);
+    position: relative;
+    top: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.subscribe-button{
+    width: 376px;
+    height: 30px;
+    padding: 27px 0px 27px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-slate-grey);
+    color: var(--white);
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    z-index: 10;
+    margin-top: -80px;
+    font-weight: 500;
+}
+
+.subscribe-button:hover {
+    box-shadow: 3px 3px 3px var(--primary-color);
+    background: linear-gradient(90deg, #ff6a6a, #f72585);
+    transition: box-shadow 150ms ease-in-out;
+    cursor: pointer;
+}
+
+
+/*success msg*/
+
+h2{
+    color: var(--dark-slate-grey);
+    font-family: Roboto-bold;
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    margin-top: 20px;
+}
+
+
+.success-card{
+    width: 380px;
+    height: 400.2px;
+    padding: 30px 50px 40px 50px;
+    background-color: var(--white);
+    border-radius: 1rem;
+    z-index: 10;
+    position: absolute;
+    display: none;
+    
+}
+
+.dissmis-btn{
+    width: 376px;
+    height: 30px;
+    padding: 27px 0px 27px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-slate-grey);
+    color: var(--white);
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-top: -80px;
+    font-weight: 500;
+    font-family: Roboto-bold;
+    margin-top: 25px;
+}
+
+.dissmis-btn:hover{
+    box-shadow: 3px 3px 3px var(--primary-color);
+    background: linear-gradient(90deg, #ff6a6a, #f72585);
+    transition: box-shadow 150ms ease-in-out;
+    cursor: pointer;
+}
+
+.succsess-message{
+    color: var(--charcoal-grey);
+    margin-top: 20px;
+}
